@@ -26,9 +26,10 @@ header {
 .navigation a{
     color: white;
     font-size: 1.3em;
-    font-weight: bold;
+    font-weight: 500;
     padding-left: 30px;
     margin: auto;
+    font-family: lexend;
 }
 
 .navigation a:hover{
@@ -99,5 +100,44 @@ img {
 .picture:hover a{
     background-color: #F1BBB6;
     transform: scale(0.9);
+    transition: 0.7s ease;
 
 }
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-family: lexend;
+    
+
+
+    
+}
+
+h3 {
+    margin-bottom: 60px;
+    font-size: 1.8em;
+    font-family: lexend;
+    
+}
+
+.icons {
+    background-color: #1E1E1E;
+    width: 5.5em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15);
+    border-radius: 30px;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 8px;
+    margin-left: 42.5%;
+    
+
+}
+
+
+
+
+
